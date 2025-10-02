@@ -31,21 +31,23 @@ Here are some ideas to get you started:
 
 **MicroFlix (Java 17 · Spring Boot · PostgreSQL)**  
 A Movie Discovery & Tracking Platform. Backend-first, deployment-ready system built with Java 17/Spring Boot and PostgreSQL, designed with microservices boundaries and API integrations in mind. It has user-centric—lists, ratings, comments, and notes with JWT/OAuth auth. When a title isn’t in the local catalog, it queries an external movie API (e.g., TMDb) and imports it into the local database to keep data consistent. Currently refining performance, and building a recommendations path (list signals + light AI).
-[🔗 Repo](link)
+<!-- [🔗 Repo](link) -->
 
 **Career-Tracker (Fastify · PostgreSQL · Auth)**  
 Job Application Manager: An application to replace spreadsheets like Excel and Notion to go beyond basic fields. In addition to company, role, stage, dates, and compensation, each application can link people who helped (connections/outreach), attach a tailored resume and cover letter for that role and more. An activity log keeps changes honest, with CSV import, stage filters for quick follow-ups, etc. Deployed via Railway (API) and Vercel (UI).
-[🔗 Repo](link)
+<!-- [🔗 Repo](link) -->
 
 **MovieVault (React · Express · MongoDB · TMDb API)**  
 Movie Discovery & Reviews: My first solo build after school. A full-stack app for exploring and reviewing movies with live TMDb integration. I used it to practice REST API design and a responsive, polished React UI—versioned endpoints, typed/request-response shapes, pagination/filtering, and explicit error contracts, with optimistic updates on the front end. Unlike MicroFlix (which centers your own lists/history), MovieVault is about open discovery in a clean, cohesive app.
-[🔗 Repo](link)
+<!-- [🔗 Repo](link) -->
 
 **AI Workflow Assistant (In Progress)**  
 Building a multi-agent helper that summarizes emails, drafts simple replies, and suggests calendar events. It uses verification/fallback checks to handle ambiguous prompts and keep things reliable and private.
+<!-- [🔗 Repo](link) -->
 
 **DataQuest Hackathon - Brescia Norton Classifier**  
 We built Booking-cancellation classifier that hit 89% accuracy on held-out data (~10% over baseline). Compared SVC/KNN/MLP→XGBoost and chose XGBoost; Mutual Information feature ranking reduced selection time by ~20%. 3rd place at a hackathon for model design + presentation.
+<!-- [🔗 Repo](link) -->
 
 ---
 
