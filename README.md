@@ -53,10 +53,10 @@ We built Booking-cancellation classifier that hit 89% accuracy on held-out data 
 
 ### 🛠️ Skills
 **Languages:** Java, Python, JavaScript, SQL  
-**Backend:** Spring Boot, Node.js, Fastify, Express, Django 
-**Frontend:** React, Next.js, Tailwind, ShadCN 
-**Databases:** PostgreSQL, MySQL, MongoDB, Redis, Firebase
-**Cloud/Tools:** Docker, Linux, AWS, GCP, Git  
+**Backend:** Spring Boot, Node.js, Fastify, Express, Django  
+**Frontend:** React, Next.js, Tailwind, ShadCN   
+**Databases:** PostgreSQL, MySQL, MongoDB, Redis, Firebase  
+**Cloud/Tools:** Docker, Linux, AWS, GCP, Git    
 **Other:** Microservices, RESTful APIs, OOP, Testing (JUnit 5, Mockito, PyTest), CI/CD, Agile, Algorithms & Data Structures  
 
 ---
