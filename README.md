@@ -38,7 +38,7 @@ Job Application Manager: An application to replace spreadsheets like Excel and N
 <!-- [🔗 Repo](link) -->
 
 **MovieVault (React · Express · Node · MongoDB · TMDb API)**  
-Movie Discovery & Reviews: My first solo build after school. A full-stack app for exploring and reviewing movies with live TMDb integration. I used it to practice REST API design and a responsive, polished React UI—versioned endpoints, typed/request-response shapes, pagination/filtering, and explicit error contracts, with optimistic updates on the front end. Unlike MicroFlix (which centers your own lists/history), MovieVault is about open discovery in a clean, cohesive app.  
+Movie Discovery & Reviews: A full-stack app for exploring and reviewing movies with live TMDb integration. I used it to practice REST API design and a responsive, polished React UI—versioned endpoints, typed/request-response shapes, pagination/filtering, and explicit error contracts, with optimistic updates on the front end. Unlike MicroFlix (which centers your own lists/history), MovieVault is about open discovery in a clean, cohesive app.  
 ([🔗 Repo](https://github.com/Kashawn-Brown/MovieAPI))
 
 **DataQuest Hackathon - Brescia Norton Classifier**  
