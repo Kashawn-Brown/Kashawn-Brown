@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 
 **MicroFlix (Java 21 · Spring Boot · PostgreSQL · Next.js)**  
 Production-minded movie platform showcasing Java/Spring microservices, a Next.js frontend, and realistic deployment practices. Backend services expose JWT-secured APIs over Spring Cloud Gateway, backed by per-service PostgreSQL databases, Flyway migrations, and TMDb-powered catalog seeding. The system adds aggregation endpoints for combined movie/rating/watchlist views, targeted DB indexing, and Spring Boot Actuator + Prometheus/Grafana for health and metrics. A GitHub Actions CI pipeline builds/tests all services and images, and the stack is deployable to AWS/GCP via Docker, making MicroFlix a complete example of full-stack microservices from local dev to cloud.  
-([🔗 Repo](https://github.com/Kashawn-Brown/MicroFlix))  ([🌐 Website](http://ec2-15-222-242-8.ca-central-1.compute.amazonaws.com))
+([🔗 Repo](https://github.com/Kashawn-Brown/MicroFlix))  ([🌐 Website](http://ec2-15-223-251-140.ca-central-1.compute.amazonaws.com/))
 
 **Career-Tracker (Fastify · PostgreSQL · Auth)**  
 Job Application Manager: An application to replace spreadsheets like Excel and Notion to go beyond basic fields. In addition to company, role, stage, dates, and compensation, each application can link people who helped (connections/outreach), attach a tailored resume and cover letter for that role and more. An activity log keeps changes honest, with CSV import, stage filters for quick follow-ups, etc. Deployed via Railway (API) and Vercel (UI).  
