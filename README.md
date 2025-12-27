@@ -42,7 +42,8 @@ Movie Discovery & Reviews: A full-stack app for exploring and reviewing movies w
 ([🔗 Repo](https://github.com/Kashawn-Brown/MovieAPI))
 
 **DataQuest Hackathon - Brescia Norton Classifier**  
-We built Booking-cancellation classifier that hit 89% accuracy on held-out data (~10% over baseline). Compared SVC/KNN/MLP→XGBoost and chose XGBoost; Mutual Information feature ranking reduced selection time by ~20%. 3rd place at a hackathon for model design + presentation.  
+Built a booking-cancellation classifier achieving 89% accuracy on held-out data (~10% over baseline). Compared SVC/KNN/MLP→XGBoost and chose XGBoost; Mutual Information–based feature selection reduced selection time by ~20%. Placed 3rd overall at a hackathon for model design + presentation.   
+~ Developed in collaboration with Oluwadamilola Kadiri and Oladayo Ogunjimi.  
 ([🔗 Repo](https://github.com/dkadiry/BresciaNortonClassifier))
 
 ---
