@@ -35,7 +35,7 @@ Production-minded movie platform showcasing Java/Spring microservices, a Next.js
 
 **Career-Tracker (Fastify · PostgreSQL · Auth)**  
 Job Application Manager: An application to replace spreadsheets like Excel and Notion to go beyond basic fields. In addition to company, role, stage, dates, and compensation, each application can link people who helped (connections/outreach), attach a tailored resume and cover letter for that role and more. An activity log keeps changes honest, with CSV import, stage filters for quick follow-ups, etc. Deployed via Railway (API) and Vercel (UI).  
- ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker))
+ ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker-frontend-ten.vercel.app/))
 
 **MovieVault (React · Express · Node · MongoDB · TMDb API)**  
 Movie Discovery & Reviews: A full-stack app for exploring and reviewing movies with live TMDb integration. I used it to practice REST API design and a responsive, polished React UI—versioned endpoints, typed/request-response shapes, pagination/filtering, and explicit error contracts, with optimistic updates on the front end. Unlike MicroFlix (which centers your own lists/history), MovieVault is about open discovery in a clean, cohesive app.  
