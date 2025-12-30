@@ -34,7 +34,7 @@ Production-minded movie platform showcasing Java/Spring microservices, a Next.js
 ([🔗 Repo](https://github.com/Kashawn-Brown/MicroFlix))  ([🌐 Website](http://ec2-15-223-251-140.ca-central-1.compute.amazonaws.com/))
 
 **Career-Tracker (Fastify · PostgreSQL · Auth)**  
-Job Application Manager: An application to replace spreadsheets like Excel and Notion to go beyond basic fields. In addition to company, role, stage, dates, and compensation, each application can link people who helped (connections/outreach), attach a tailored resume and cover letter for that role and more. An activity log keeps changes honest, with CSV import, stage filters for quick follow-ups, etc. Deployed via Railway (API) and Vercel (UI).  
+A full-stack job application manager designed to replace scattered spreadsheets by tracking applications end-to-end (company, role, status, dates, notes, and workflow). Built with a modular Fastify backend + Postgres and a Next.js dashboard for fast filtering, updating statuses, and managing records. Deployed with a production-style setup (Cloud Run + Cloud SQL for API/data, Vercel for UI), with basic health monitoring and CI checks.  
  ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker-frontend-ten.vercel.app/))
 
 **MovieVault (React · Express · Node · MongoDB · TMDb API)**  
