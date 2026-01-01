@@ -37,6 +37,10 @@ Production-minded movie platform showcasing Java/Spring microservices, a Next.js
 A full-stack job application manager designed to replace scattered spreadsheets by tracking applications end-to-end (company, role, status, dates, notes, and workflow). Built with a modular Fastify backend + Postgres and a Next.js dashboard for fast filtering, updating statuses, and managing records. Deployed with a production-style setup (Cloud Run + Cloud SQL for API/data, Vercel for UI), with basic health monitoring and CI checks.  
  ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker-frontend-ten.vercel.app/))
 
+**AI-Sudoku (React, FastAPI, PostgreSQL, Tailwind CSS v4, Docker, React Query)**
+A full-stack Sudoku game built as a collaborative project with Cursor AI to explore AI-assisted development. The game includes real-time move validation, a scoring system with difficulty multipliers, and a hint system (3 per game). The React frontend uses React Query for data fetching and Tailwind CSS v4 for responsive styling with light/dark mode. The FastAPI backend serves puzzles from PostgreSQL with difficulty filtering. The project is containerized with Docker Compose for development and production, and includes comprehensive documentation and code comments throughout. Built iteratively with Cursor AI for pair programming and rapid feature iteration, demonstrating modern full-stack development practices from local setup to containerized deployment.  
+([🔗 Repo](https://github.com/Kashawn-Brown/AI-Sudoku))
+
 **MovieVault (React · Express · Node · MongoDB · TMDb API)**  
 Movie Discovery & Reviews: A full-stack app for exploring and reviewing movies with live TMDb integration. I used it to practice REST API design and a responsive, polished React UI—versioned endpoints, typed/request-response shapes, pagination/filtering, and explicit error contracts, with optimistic updates on the front end. Unlike MicroFlix (which centers your own lists/history), MovieVault is about open discovery in a clean, cohesive app.  
 ([🔗 Repo](https://github.com/Kashawn-Brown/MovieAPI))
