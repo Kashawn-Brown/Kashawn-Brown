@@ -29,13 +29,13 @@ Here are some ideas to get you started:
 
 ### 🏆 Featured Projects
 
+**Career-Tracker (Next.js · Fastify · Postgres · AI)**  
+A production-minded job application tracker built to replace spreadsheets: a fast table-first dashboard with a details drawer, plus documents and connections management. Includes AI-assisted job description extraction + FIT scoring gated by free credits/Pro with an admin approval flow. Deployed with a production setup (Vercel + Cloud Run + Cloud SQL, custom domain career-tracker.ca) and backed by deterministic integration tests (Vitest + Fastify inject + Dockerized Postgres).
+ ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker.ca))
+
 **MicroFlix (Java 21 · Spring Boot · PostgreSQL · Next.js)**  
 Production-minded movie platform showcasing Java/Spring microservices, a Next.js frontend, and realistic deployment practices. Backend services expose JWT-secured APIs over Spring Cloud Gateway, backed by per-service PostgreSQL databases, Flyway migrations, and TMDb-powered catalog seeding. The system adds aggregation endpoints for combined movie/rating/watchlist views, targeted DB indexing, and Spring Boot Actuator + Prometheus/Grafana for health and metrics. A GitHub Actions CI pipeline builds/tests all services and images, and the stack is deployable to AWS/GCP via Docker, making MicroFlix a complete example of full-stack microservices from local dev to cloud.  
 ([🔗 Repo](https://github.com/Kashawn-Brown/MicroFlix))  ([🌐 Website](http://ec2-15-223-251-140.ca-central-1.compute.amazonaws.com/))
-
-**Career-Tracker (Fastify · PostgreSQL · Auth)**  
-A full-stack job application manager designed to replace scattered spreadsheets by tracking applications end-to-end (company, role, status, dates, notes, and workflow). Built with a modular Fastify backend + Postgres and a Next.js dashboard for fast filtering, updating statuses, and managing records. Deployed with a production-style setup (Cloud Run + Cloud SQL for API/data, Vercel for UI), with basic health monitoring and CI checks.  
- ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker-frontend-ten.vercel.app/))
 
 **AI-Sudoku (React, FastAPI, PostgreSQL, Tailwind CSS v4, Docker, React Query)**  
 A full-stack Sudoku game built as a collaborative project with Cursor AI to explore AI-assisted development. The game includes real-time move validation, a scoring system with difficulty multipliers, and a hint system (3 per game). The React frontend uses React Query for data fetching and Tailwind CSS v4 for responsive styling with light/dark mode. The FastAPI backend serves puzzles from PostgreSQL with difficulty filtering. The project is containerized with Docker Compose for development and production, and includes comprehensive documentation and code comments throughout. Built iteratively with Cursor AI for pair programming and rapid feature iteration, demonstrating modern full-stack development practices from local setup to containerized deployment.  
