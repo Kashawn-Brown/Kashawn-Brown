@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 ### 🏆 Featured Projects
 
 **Career-Tracker (Next.js · Fastify · Postgres · AI)**  
-A production-minded job application tracker built to replace spreadsheets: a fast table-first dashboard with a details drawer, plus documents and connections management. Includes AI-assisted job description extraction + FIT scoring gated by free credits/Pro with an admin approval flow. Deployed with a production setup (Vercel + Cloud Run + Cloud SQL, custom domain career-tracker.ca) and backed by deterministic integration tests (Vitest + Fastify inject + Dockerized Postgres).
+A production-minded job application tracker built to replace spreadsheets: a fast table-first dashboard with a details drawer, plus documents and connections management. Includes AI-assisted job description extraction + FIT scoring gated by free credits/Pro with an admin approval flow. Deployed with a production setup (Vercel + Cloud Run + Cloud SQL, custom domain career-tracker.ca) and backed by deterministic integration tests (Vitest + Fastify inject + Dockerized Postgres).  
  ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker.ca))
 
 **MicroFlix (Java 21 · Spring Boot · PostgreSQL · Next.js)**  
