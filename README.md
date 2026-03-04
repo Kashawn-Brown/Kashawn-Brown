@@ -70,7 +70,6 @@ Built a booking-cancellation classifier achieving 89% accuracy on held-out data 
 - Productionize & host my projects  
 - Finding new problems to solve and more things to build
 - Constant learning  
-> Some repos are private or temporarily down while I update, host and tidy
 ---
 
 ### 📫 Get in Touch
