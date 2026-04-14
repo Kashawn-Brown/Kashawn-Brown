@@ -29,13 +29,14 @@ Here are some ideas to get you started:
 
 ### 🏆 Featured Projects
 
+
+**Career-Tracker (Next.js · Fastify · Postgres · OpenAI)**   
+A production job application tracker built to replace spreadsheets: a fast **table-first dashboard**, **GCS document storage**, and a **connections system**. Includes a **5-tool AI suite** (JD extraction, compatibility scoring, resume advice, cover letter generation, and interview prep) backed by a monthly credit entitlement system. Auth is JWT with rotating hashed refresh sessions, Google OAuth with PKCE, CSRF protection, and Redis rate limiting throughout. Deployed to Cloud Run via Cloud Build CI/CD, Vitest integration tests across 12 modules, k6 load tested.  
+ ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker.ca))
+ 
 **PASS / WSPass (TypeScript · Next.js · Fastify · GitHub Actions · Zod · Claude)**  
 An artifact-first agentic DevOps control plane built for the Wealthsimple AI Builder challenge. Converts PRDs into persisted, schema-validated planning artifacts (architecture pack + decomposition), then enforces a human stop-line before   syncing an approved backlog to GitHub. Includes encrypted integration tokens (AES-256-GCM) and LLM observability (token usage, redacted traces, cost estimates) so runs remain safe and diagnosable.  
 ([🔗 Repo](https://github.com/MatteoTanziCodes/WSPass)) ([🌐 Website](https://ws-pass-website.vercel.app/))
-
-**Career-Tracker (Next.js · Fastify · Postgres · OpenAI)**   
-A production-minded job application tracker built to replace spreadsheets: a fast **table-first dashboard** with a **details drawer**, plus documents and connections management. Includes **AI-assisted job description extraction + Compatability scoring** gated by **free credits/Pro** with an admin approval flow. Deployed with a production setup (**Vercel + Cloud Run + Cloud SQL**, custom domain `career-tracker.ca`) and backed by **deterministic integration tests** (Vitest + Fastify inject + Dockerized Postgres).   
- ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker.ca))
 
 **MicroFlix (Java 21 · Spring Boot · PostgreSQL · Next.js)**  
 Production-minded movie platform showcasing Java/Spring microservices, a Next.js frontend, and realistic deployment practices. Backend services expose JWT-secured APIs over Spring Cloud Gateway, backed by per-service PostgreSQL databases, Flyway migrations, and TMDb-powered catalog seeding. The system adds aggregation endpoints for combined movie/rating/watchlist views, targeted DB indexing, and Spring Boot Actuator + Prometheus/Grafana for health and metrics. A GitHub Actions CI pipeline builds/tests all services and images, and the stack is deployable to AWS/GCP via Docker, making MicroFlix a complete example of full-stack microservices from local dev to cloud.  
