@@ -20,9 +20,9 @@ Here are some ideas to get you started:
 
 - 🎓 B.Sc. in Computer Science — Western University
 - 💻 Full-Stack Software Engineer (Backend-leaning)
-- 📈 Constantly learning and building with purpose
-- 🛠️ Turning ideas into projects
-- 🧪 Right now: moving & improving projects from prototypes to “real” apps
+- ⚙️ Constantly learning and building with purpose
+- 🚀 Turning ideas into real, shipped products
+- 🔨 Always working on something new
 - 🎮 Outside code: sports, gaming, and anime
 
 ---
