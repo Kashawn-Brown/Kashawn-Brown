@@ -43,14 +43,14 @@ Complete:
 **Career-Tracker (Next.js · Fastify · Postgres · OpenAI)**   
 A production job application tracker built to replace spreadsheets: a fast **table-first dashboard**, **GCS document storage**, and a **connections system**. Includes a **5-tool AI suite** (JD extraction, compatibility scoring, resume advice, cover letter generation, and interview prep) backed by a monthly credit entitlement system. Auth is JWT with rotating hashed refresh sessions, Google OAuth with PKCE, CSRF protection, and Redis rate limiting throughout. GitHub Actions CI / Cloud Build CD, Vitest integration tests, k6 load tested.  
 ([🔗 Repo](https://github.com/Kashawn-Brown/Career-Tracker)) ([🌐 Website](https://career-tracker.ca))
+
+**MicroFlix (Java 21 · Spring Boot · PostgreSQL · Next.js)**  
+Microservices movie platform built as deliberate practice in production-style backend architecture. Backend services expose JWT-secured APIs through a Spring Cloud Gateway, backed by per-service PostgreSQL databases with Flyway migrations and TMDb-powered catalog seeding. Cross-service authentication is handled by local JWT verification per service rather than a shared auth module, and the gateway exposes parallel aggregation endpoints for combined movie/rating/watchlist views. A GitHub Actions CI/CD pipeline builds and pushes images to Docker Hub, with deploys explicitly ordered behind successful CI runs. The stack was deployed to AWS EC2 with Docker Compose; the deployment is currently retired, but the codebase is the source of truth for everything described here.  
+([🔗 Repo](https://github.com/Kashawn-Brown/MicroFlix))
  
 **PASS / WSPass (TypeScript · Next.js · Fastify · GitHub Actions · Zod · Claude)**  
 An artifact-first agentic DevOps control plane built for the Wealthsimple AI Builder challenge. Converts PRDs into persisted, schema-validated planning artifacts (architecture pack + decomposition), then enforces a human stop-line before   syncing an approved backlog to GitHub. Includes encrypted integration tokens (AES-256-GCM) and LLM observability (token usage, redacted traces, cost estimates) so runs remain safe and diagnosable.  
 ([🔗 Repo](https://github.com/MatteoTanziCodes/WSPass)) ([🌐 Website](https://ws-pass-website.vercel.app/))
-
-**MicroFlix (Java 21 · Spring Boot · PostgreSQL · Next.js)**  
-Production-minded movie platform showcasing Java/Spring microservices, a Next.js frontend, and realistic deployment practices. Backend services expose JWT-secured APIs over Spring Cloud Gateway, backed by per-service PostgreSQL databases, Flyway migrations, and TMDb-powered catalog seeding. The system adds aggregation endpoints for combined movie/rating/watchlist views, targeted DB indexing, and Spring Boot Actuator + Prometheus/Grafana for health and metrics. A GitHub Actions CI pipeline builds/tests all services and images, and the stack is deployable to AWS/GCP via Docker, making MicroFlix a complete example of full-stack microservices from local dev to cloud.  
-([🔗 Repo](https://github.com/Kashawn-Brown/MicroFlix))  ([🌐 Website](http://ec2-15-223-251-140.ca-central-1.compute.amazonaws.com/))
 
 **Due For A Win (Python · FastAPI · React · Vite · The Odds API)**  
 A +EV sports betting engine that strips the vig from 10+ sportsbooks via proportional devigging, builds a consensus fair-probability vector, and surfaces bets where FanDuel is mispriced. Applies Kelly Criterion sizing to recommend stake fractions. Covers NFL, NBA, MLB, NHL, and EPL across moneyline, spread, and totals markets.
