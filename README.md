@@ -35,6 +35,10 @@ Current:
 A group accountability app built around a single visual mechanic: a shared **ProgressRing** that fills as each member logs progress toward a shared goal. Small groups (gym partners, study squads, roommates) define a goal with cadence and target, invite members, and each member owns a slice of the ring. The circle only completes when everyone does their part. Built as a real product, not a portfolio piece: targeting App Store and Google Play release after MVP. Architected as a Turborepo monorepo with mobile-first delivery (Expo/React Native), web companion (Next.js 15 App Router), and a Go 1.23 backend using chi + pgx against PostgreSQL. Auth foundation (Clerk) is live across all three clients with a JWT-bridged user model, and CI is wired through GitHub Actions. Deploying to GCP Cloud Run + Neon.   
 ([🔗 Repo](https://github.com/Kashawn-Brown/CircleAccountability))
 
+**Shot O'Clock (Expo · React Native · TypeScript · Supabase · Postgres)**   
+A mobile-first drinking-game app for legal-drinking-age groups that turns the real-life Shot O'Clock game into a synced multi-device experience: host creates a party, players join by code, a **server-authoritative countdown** runs across every device, a full-screen Shot O'Clock moment triggers, and players mark Done or I'm Out as the roster updates live. Built as an **AI-led, supervised development project** — most implementation runs through Claude Code against a locked set of architectural specs, with every decision captured in an auditable decision log. Architecture is mobile-first realtime: Expo Router on the client, Postgres functions (`SECURITY DEFINER` RPCs behind Row Level Security) own all game state mutations, Supabase Realtime pushes updates. Currently mid-MVP build with the schema foundation, RLS policies, and TypeScript types layer complete; core RPC layer next.   
+([🔗 Repo](https://github.com/Kashawn-Brown/shot-o-clock)) 
+
   
 <br/>
 Complete:    
