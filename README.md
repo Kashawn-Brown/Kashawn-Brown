@@ -36,7 +36,7 @@ A group accountability app built around a single visual mechanic: a shared **Pro
 ([🔗 Repo](https://github.com/Kashawn-Brown/CircleAccountability))
 
 **Shot O'Clock (Expo · React Native · TypeScript · Supabase · Postgres)**   
-A mobile-first drinking-game app for legal-drinking-age groups that turns the real-life Shot O'Clock game into a synced multi-device experience: host creates a party, players join by code, a **server-authoritative countdown** runs across every device, a full-screen Shot O'Clock moment triggers, and players mark Done or I'm Out as the roster updates live. Built as an **AI-led, supervised development project** — most implementation runs through Claude Code against a locked set of architectural specs, with every decision captured in an auditable decision log. Architecture is mobile-first realtime: Expo Router on the client, Postgres functions (`SECURITY DEFINER` RPCs behind Row Level Security) own all game state mutations, Supabase Realtime pushes updates. Currently mid-MVP build with the schema foundation, RLS policies, and TypeScript types layer complete; core RPC layer next.   
+A mobile-first synced drinking-game app — host creates a party, players join by code, a server-authoritative countdown runs across all devices, full-screen Shot O'Clock moments trigger each round. Built as an **AI-led, supervised development project**: most implementation runs through Claude Code against locked specs, with every decision logged for audit. Mid-MVP build — schema foundation and RLS layer complete; core RPC layer next.   
 ([🔗 Repo](https://github.com/Kashawn-Brown/shot-o-clock)) 
 
   
