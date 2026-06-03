@@ -51,7 +51,11 @@ A production job application tracker built to replace spreadsheets: a fast **tab
 **MicroFlix (Java 21 · Spring Boot · PostgreSQL · Next.js)**  
 Microservices movie platform built as deliberate practice in production-style backend architecture. JWT-secured APIs through a Spring Cloud Gateway, per-service PostgreSQL with Flyway migrations, TMDb-seeded catalog, and cross-service auth via local JWT verification. End-to-end observability (Micrometer + Prometheus + Grafana) underpins measurement-driven performance work at both layers: EXPLAIN ANALYZE on hot query paths producing targeted Flyway indexes (~28× faster on the highest-leverage lookup), and k6 load testing against the gateway's aggregation endpoints that significantly collapsed browser round trips. A GitHub Actions CI/CD pipeline builds and pushes images to Docker Hub, with deploys explicitly ordered behind successful CI runs. The stack was deployed to AWS EC2 with Docker Compose; the deployment is currently retired, but the codebase is the source of truth for everything described here.  
 ([🔗 Repo](https://github.com/Kashawn-Brown/MicroFlix))
- 
+
+**AI Inference Platform (Python · FastAPI · vLLM · PostgreSQL · Docker · Prometheus · Grafana · k6)**  
+A self-hosted AI inference platform built around an open-source LLM — not an AI app, but the infrastructure layer around the model. Separates synchronous live inference from asynchronous batch execution in one operational layer, with a Postgres-backed queue using SELECT FOR UPDATE SKIP LOCKED instead of Redis. Full observability: Prometheus metrics, Grafana dashboards, structured logs with correlation IDs. Benchmarked under load with k6 across smoke/load/stress scenarios on a constrained 4GB GPU — honest numbers, documented constraints.  
+([🔗 Repo](https://github.com/Kashawn-Brown/ai-inference-platform))
+
 **PASS / WSPass (TypeScript · Next.js · Fastify · GitHub Actions · Zod · Claude)**  
 An artifact-first agentic DevOps control plane built for the Wealthsimple AI Builder challenge. Converts PRDs into persisted, schema-validated planning artifacts (architecture pack + decomposition), then enforces a human stop-line before   syncing an approved backlog to GitHub. Includes encrypted integration tokens (AES-256-GCM) and LLM observability (token usage, redacted traces, cost estimates) so runs remain safe and diagnosable.  
 ([🔗 Repo](https://github.com/MatteoTanziCodes/WSPass)) ([🌐 Website](https://ws-pass-website.vercel.app/))
