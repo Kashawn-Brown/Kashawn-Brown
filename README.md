@@ -35,14 +35,14 @@ Current:
 A group accountability app built around a single visual mechanic: a shared **ProgressRing** that fills as each member logs progress toward a shared goal. Small groups (gym partners, study squads, roommates) define a goal with cadence and target, invite members, and each member owns a slice of the ring. The circle only completes when everyone does their part. Built as a real product, not a portfolio piece: targeting App Store and Google Play release after MVP. Architected as a Turborepo monorepo with mobile-first delivery (Expo/React Native), web companion (Next.js 15 App Router), and a Go 1.23 backend using chi + pgx against PostgreSQL. Auth foundation (Clerk) is live across all three clients with a JWT-bridged user model, and CI is wired through GitHub Actions. Deploying to GCP Cloud Run + Neon.   
 ([🔗 Repo](https://github.com/Kashawn-Brown/CircleAccountability))
 
-**Shot O'Clock (Expo · React Native · TypeScript · Supabase · Postgres)**   
-A mobile-first synced drinking-game app — host creates a party, players join by code, a server-authoritative countdown runs across all devices, full-screen Shot O'Clock moments trigger each round. Built as an **AI-led, supervised development project**: most implementation runs through Claude Code against locked specs, with every decision logged for audit. Mid-MVP build — schema foundation and RLS layer complete; core RPC layer next.   
-([🔗 Repo](https://github.com/Kashawn-Brown/shot-o-clock)) 
-
   
 <br/>
 Complete:    
 <br/><br/>
+
+**Shot O'Clock (Expo · React Native · TypeScript · Supabase · Postgres)**  
+A mobile-first multiplayer drinking-game app — host creates a party, players join by code, and a server-authoritative countdown runs live across every device simultaneously. Full-screen Shot O'Clock moments trigger each round; players mark Done or I'm Out; the roster, grace logic, and elimination all resolve server-side. Push notifications fire from real server transitions via pg_net directly from Postgres — not pre-scheduled or client-side. Built across 17 phases using a structured AI-assisted workflow: Claude Code handled implementation against locked specs, with every architectural decision logged for audit. Complete and preparing for App Store & Google Play release.  
+([🔗 Repo](https://github.com/Kashawn-Brown/shot-o-clock))
 
 **Career-Tracker (Next.js · Fastify · Postgres · OpenAI)**   
 A production job application tracker built to replace spreadsheets: a fast **table-first dashboard**, **GCS document storage**, and a **connections system**. Includes a **5-tool AI suite** (JD extraction, compatibility scoring, resume advice, cover letter generation, and interview prep) backed by a monthly credit entitlement system. Auth is JWT with rotating hashed refresh sessions, Google OAuth with PKCE, CSRF protection, and Redis rate limiting throughout. GitHub Actions CI / Cloud Build CD, Vitest integration tests, k6 load tested.  
