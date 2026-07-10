@@ -13,8 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Hi, I'm Kashawn Brown! 👋
-
+# Hi, I'm [Kashawn Brown!](https://kashawn-portfolio.vercel.app/) 👋
 
 ### 📖 About Me
 
@@ -54,7 +53,7 @@ Microservices movie platform built as deliberate practice in production-style ba
 
 **AI Inference Platform (Python · FastAPI · vLLM · PostgreSQL · Docker · Prometheus · Grafana · k6)**  
 A self-hosted AI inference platform built around an open-source LLM — not an AI app, but the infrastructure layer around the model. Separates synchronous live inference from asynchronous batch execution in one operational layer, with a Postgres-backed queue using SELECT FOR UPDATE SKIP LOCKED instead of Redis. Full observability: Prometheus metrics, Grafana dashboards, structured logs with correlation IDs. Benchmarked under load with k6 across smoke/load/stress scenarios on a constrained 4GB GPU — honest numbers, documented constraints.  
-([🔗 Repo](https://github.com/Kashawn-Brown/ai-inference-platform))
+([🔗 Repo](https://github.com/Kashawn-Brown/ai-inference-platform)) ([🖥️ Demo](https://ai-inference-platform.vercel.app/))
 
 **PASS / WSPass (TypeScript · Next.js · Fastify · GitHub Actions · Zod · Claude)**  
 An artifact-first agentic DevOps control plane built for the Wealthsimple AI Builder challenge. Converts PRDs into persisted, schema-validated planning artifacts (architecture pack + decomposition), then enforces a human stop-line before   syncing an approved backlog to GitHub. Includes encrypted integration tokens (AES-256-GCM) and LLM observability (token usage, redacted traces, cost estimates) so runs remain safe and diagnosable.  
@@ -100,6 +99,8 @@ Built a booking-cancellation classifier achieving 89% accuracy on held-out data 
 - LinkedIn: https://www.linkedin.com/in/kashawn-brown/
 - Email: kashawnbrown@hotmail.com
 
+### 🗂️ Check out my portfolio site
+- https://kashawn-portfolio.vercel.app/
 ---
 > If something here resonates or you’d like a quick demo, feel free to reach out.
 > Also open to new connections & opportunities!
