@@ -39,6 +39,10 @@ A group accountability app built around a single visual mechanic: a shared **Pro
 Complete:    
 <br/><br/>
 
+**TechDrill (TypeScript · Next.js · Supabase · PostgreSQL · Tailwind CSS · Vercel)**  
+A deployed technical study and interview-prep platform built around structured, repeatable active recall. Users can run configurable quizzes, save and resume active sessions, bookmark questions, build custom study collections, and review persistent quiz history. Quiz attempts use immutable snapshots so completed results remain accurate even when live questions or collections later change. Built with Supabase Auth + PostgreSQL RLS for multi-user isolation, plus a duplicate-aware admin JSON import workflow for managing large technical question banks. The content pipeline uses planned, human-reviewed LLM-assisted generation rather than blindly importing generated questions.  
+([🌐 Website](https://techdrill-six.vercel.app/))
+
 **Shot O'Clock (Expo · React Native · TypeScript · Supabase · Postgres)**  
 A mobile-first multiplayer drinking-game app — host creates a party, players join by code, and a server-authoritative countdown runs live across every device simultaneously. Full-screen Shot O'Clock moments trigger each round; players mark Done or I'm Out; the roster, grace logic, and elimination all resolve server-side. Push notifications fire from real server transitions via pg_net directly from Postgres — not pre-scheduled or client-side. Built across 17 phases using a structured AI-assisted workflow: Claude Code handled implementation against locked specs, with every architectural decision logged for audit. Complete and preparing for App Store & Google Play release.  
 ([🔗 Repo](https://github.com/Kashawn-Brown/shot-o-clock))
