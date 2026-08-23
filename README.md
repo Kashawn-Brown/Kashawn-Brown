@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Hi, I'm [Kashawn Brown!](https://kashawn-portfolio.vercel.app/) 👋
+# Hi, I'm [Kashawn Brown!](https://kashawnbrown.com) 👋
 
 ### 📖 About Me
 
@@ -104,7 +104,7 @@ Built a booking-cancellation classifier achieving 89% accuracy on held-out data 
 - Email: kashawnbrown@hotmail.com
 
 ### 🗂️ Check out my portfolio site
-- https://kashawn-portfolio.vercel.app/
+- https://kashawnbrown.com/
 ---
 > If something here resonates or you’d like a quick demo, feel free to reach out.
 > Also open to new connections & opportunities!
